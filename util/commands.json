@@ -15,32 +15,23 @@
     "command": "`$kanban -C`",
     "desc": "display the Completed tasks"
   },
-	"add": {
-		"command": "`$kanban add <Task>`",
-		"desc": "default, adding a task to bottom row of \"Backlog\""
-	},
-	"delete": {
-		"command": "`$kanban delete <Task>`",
-		"desc": "delete selected tasks"
-	},
-	"edit": {
-		"command": "`$kanban edit <Task> <New Task>`",
-		"desc": "replace selected task with a new task"
-	},
-	"forward": {
-		"command": "`$kanban forward <Task>`",
-		"desc": "shift selected task forward, for example, from \"Backlog\" to \"In-Progress\""
-	},
-	"backward": {
-		"command": "`$kanban backward <Task>`",
-		"desc": "shift selected task backward, for example, from \"In-Progress\" to \"Backlog\""
-	},
-	"up": {
-		"command": "`$kanban up <Task>`",
-		"desc": "sup gurl u up?"
-	},
-	"down": {
-		"command": "`$kanban down <Task>`",
-		"desc": "shifting down an task (default shifts down by one)"
-	}
+  "add": {
+    "command": "`$kanban add <Task>`",
+    "desc": "default, adding a task to bottom row of \"Backlog\""
+  },
+  "remove": {
+    "command": "`$kanban remove <Task>`",
+    "desc": "remove selected tasks"
+  },
+  "edit": {
+    "command": "`$kanban edit <Task> <New Task>`",
+    "desc": "replace selected task with a new task"
+  },
+  "forward": {
+    "command": "`$kanban forward <Task>`",
+    "desc": "shift selected task forward from \"Backlog\" to \"In-Progress\""
+  },
+  "complete": {
+    "command": "`$kanban complete <Task>`",
+    "desc": "shift selected task from \"In-Progress\" to \"Completed\""
 }
